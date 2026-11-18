@@ -475,6 +475,16 @@ textarea {
   padding-block: var(--space-xl) var(--space-lg);
 }
 
+.hero-content .eyebrow {
+  padding: 0.38rem 0.8rem;
+  background: rgba(8, 8, 10, 0.8);
+  border: 1px solid var(--border-brass);
+  backdrop-filter: blur(8px);
+  color: var(--accent-brass-bright);
+  max-inline-size: 100%;
+  flex-wrap: wrap;
+}
+
 .hero-title {
   margin: 0.75rem 0 1.25rem;
   max-inline-size: 18ch;
