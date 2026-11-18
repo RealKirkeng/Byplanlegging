@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-label="Arkitektonisk fasadeskisse av Verftskvartalet på Nyhavna i Trondheim">
+  <defs>
+    <linearGradient id="skyNy" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#08080A"/>
+      <stop offset="60%" stop-color="#171312"/>
+      <stop offset="100%" stop-color="#221916"/>
+    </linearGradient>
+    <linearGradient id="waterNy" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#111013"/>
+      <stop offset="100%" stop-color="#070709"/>
+    </linearGradient>
+    <pattern id="gridNy" width="80" height="80" patternUnits="userSpaceOnUse">
+      <path d="M 80 0 L 0 0 0 80" fill="none" stroke="#C9A96E" stroke-opacity="0.05" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="1600" height="900" fill="url(#skyNy)"/>
+  <rect width="1600" height="630" fill="url(#gridNy)"/>
+
+  <!-- Trondheimsfjord distant ridge -->
+  <path d="M0 520 Q380 465 760 500 T1600 485 L1600 630 L0 630 Z" fill="#100F12" stroke="#C9A96E" stroke-opacity="0.18"/>
+
+  <!-- Historic maritime crane silhouette (industrial heritage tribute) -->
+  <g stroke="#C9A96E" stroke-opacity="0.45" stroke-width="1.6" fill="none">
+    <line x1="1290" y1="630" x2="1320" y2="210"/>
+    <line x1="1350" y1="630" x2="1320" y2="210"/>
+    <line x1="1320" y1="210" x2="1150" y2="170"/>
+    <line x1="1320" y1="210" x2="1440" y2="255"/>
+    <line x1="1150" y1="170" x2="1150" y2="290" stroke-dasharray="4 4"/>
+  </g>
+
+  <!-- Preserved Red-Brick Shipyard Halls + Classical-Industrial Quarter Blocks -->
+  <g stroke="#F5F2EB" stroke-opacity="0.7" stroke-width="1.4" fill="#1A1515">
+    <!-- Preserved Sawtooth / Gabled Warehouse Hall -->
+    <polygon points="150,630 150,420 235,345 320,420 320,630"/>
+    <polygon points="320,630 320,420 405,345 490,420 490,630"/>
+    <!-- New Classical Brick & Timber Perimeter Quarter -->
+    <rect x="545" y="385" width="320" height="245" fill="#161417"/>
+    <polygon points="535,385 705,315 875,385" fill="#121114"/>
+    <!-- Maritime Corner Block -->
+    <rect x="910" y="405" width="265" height="225" fill="#181517"/>
+    <polygon points="900,405 1042,335 1185,405" fill="#121114"/>
+  </g>
+
+  <!-- Arched Warehouse Windows & Warm Lit Ground Arcades -->
+  <g fill="#C9A96E" fill-opacity="0.26" stroke="#DFC38D" stroke-opacity="0.6" stroke-width="1">
+    <rect x="180" y="455" width="42" height="130" rx="21"/>
+    <rect x="248" y="455" width="42" height="130" rx="21"/>
+    <rect x="350" y="455" width="42" height="130" rx="21"/>
+    <rect x="418" y="455" width="42" height="130" rx="21"/>
+    <!-- Perimeter block bays -->
+    <rect x="580" y="540" width="46" height="90" rx="23"/><rect x="648" y="540" width="46" height="90" rx="23"/>
+    <rect x="716" y="540" width="46" height="90" rx="23"/><rect x="784" y="540" width="46" height="90" rx="23"/>
+    <rect x="945" y="545" width="44" height="85" rx="22"/><rect x="1015" y="545" width="44" height="85" rx="22"/>
+    <rect x="1085" y="545" width="44" height="85" rx="22"/>
+  </g>
+
+  <!-- Fjord & Harbor Promenade -->
+  <rect x="0" y="630" width="1600" height="270" fill="url(#waterNy)"/>
+  <rect x="100" y="630" width="1400" height="14" fill="#201B19" stroke="#C9A96E" stroke-opacity="0.5"/>
+  <g stroke="#C9A96E" stroke-opacity="0.24" stroke-width="1.2">
+    <line x1="190" y1="680" x2="290" y2="680"/><line x1="585" y1="692" x2="820" y2="692"/><line x1="950" y1="678" x2="1125" y2="678"/>
+  </g>
+</svg>

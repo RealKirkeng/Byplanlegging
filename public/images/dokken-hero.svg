@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-label="Arkitektonisk fasadeskisse av Bryggekvartalet på Dokken i Bergen">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#07080B"/>
+      <stop offset="58%" stop-color="#13161E"/>
+      <stop offset="100%" stop-color="#1E1C1A"/>
+    </linearGradient>
+    <linearGradient id="water" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#101318"/>
+      <stop offset="100%" stop-color="#07080A"/>
+    </linearGradient>
+    <linearGradient id="warmGlow" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#DFC38D" stop-opacity="0.34"/>
+      <stop offset="100%" stop-color="#C9A96E" stop-opacity="0.06"/>
+    </linearGradient>
+    <pattern id="grid" width="80" height="80" patternUnits="userSpaceOnUse">
+      <path d="M 80 0 L 0 0 0 80" fill="none" stroke="#F5F2EB" stroke-opacity="0.045" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="1600" height="900" fill="url(#sky)"/>
+  <rect width="1600" height="630" fill="url(#grid)"/>
+
+  <!-- Byfjellene / Bergen mountain backdrop -->
+  <path d="M0 490 L180 355 L340 420 L560 280 L760 390 L980 245 L1220 350 L1410 295 L1600 410 L1600 630 L0 630 Z" fill="#0C0E13" stroke="#C9A96E" stroke-opacity="0.22" stroke-width="1.2"/>
+  <path d="M0 530 L250 430 L470 480 L710 380 L940 460 L1180 390 L1450 440 L1600 480 L1600 630 L0 630 Z" fill="#101218" stroke="#F5F2EB" stroke-opacity="0.1" stroke-width="1"/>
+
+  <!-- Subtle architectural axis & datum lines -->
+  <line x1="80" y1="220" x2="1520" y2="220" stroke="#C9A96E" stroke-opacity="0.15" stroke-dasharray="6 8"/>
+  <line x1="80" y1="630" x2="1520" y2="630" stroke="#C9A96E" stroke-opacity="0.55" stroke-width="1.5"/>
+
+  <!-- Gabled Hanseatic-inspired Bryggekvartalet waterfront facades -->
+  <g stroke="#F5F2EB" stroke-opacity="0.72" stroke-width="1.4" fill="#15161B">
+    <!-- Block 1 -->
+    <polygon points="150,630 150,410 215,320 280,410 280,630"/>
+    <polygon points="280,630 280,425 340,340 400,425 400,630" fill="#181920"/>
+    <polygon points="400,630 400,395 470,295 540,395 540,630"/>
+    <!-- Canal gap -->
+    <rect x="540" y="598" width="95" height="32" fill="#0C1016" stroke="#C9A96E" stroke-opacity="0.45"/>
+    <!-- Block 2 (Landmark quarter) -->
+    <polygon points="635,630 635,405 705,305 775,405 775,630"/>
+    <polygon points="775,630 775,380 860,265 945,380 945,630" fill="#19191E"/>
+    <polygon points="945,630 945,420 1015,330 1085,420 1085,630"/>
+    <!-- Canal gap 2 -->
+    <rect x="1085" y="598" width="80" height="32" fill="#0C1016" stroke="#C9A96E" stroke-opacity="0.45"/>
+    <!-- Block 3 -->
+    <polygon points="1165,630 1165,415 1235,325 1305,415 1305,630"/>
+    <polygon points="1305,630 1305,440 1375,355 1445,440 1445,630" fill="#181920"/>
+  </g>
+
+  <!-- Ground floor arcades & warm lit windows -->
+  <g fill="url(#warmGlow)" stroke="#C9A96E" stroke-opacity="0.7" stroke-width="1">
+    <rect x="172" y="555" width="36" height="75" rx="18"/>
+    <rect x="224" y="555" width="36" height="75" rx="18"/>
+    <rect x="302" y="555" width="34" height="75" rx="17"/>
+    <rect x="352" y="555" width="34" height="75" rx="17"/>
+    <rect x="424" y="550" width="40" height="80" rx="20"/>
+    <rect x="480" y="550" width="40" height="80" rx="20"/>
+    <rect x="660" y="555" width="38" height="75" rx="19"/>
+    <rect x="716" y="555" width="38" height="75" rx="19"/>
+    <rect x="802" y="545" width="46" height="85" rx="23"/>
+    <rect x="872" y="545" width="46" height="85" rx="23"/>
+    <rect x="970" y="555" width="36" height="75" rx="18"/>
+    <rect x="1024" y="555" width="36" height="75" rx="18"/>
+    <rect x="1192" y="555" width="36" height="75" rx="18"/>
+    <rect x="1244" y="555" width="36" height="75" rx="18"/>
+  </g>
+
+  <!-- Upper rhythmic window grid -->
+  <g fill="#DFC38D" fill-opacity="0.24" stroke="#F5F2EB" stroke-opacity="0.35" stroke-width="0.9">
+    <rect x="176" y="435" width="22" height="36"/><rect x="230" y="435" width="22" height="36"/>
+    <rect x="176" y="490" width="22" height="36"/><rect x="230" y="490" width="22" height="36"/>
+    <rect x="430" y="420" width="26" height="40"/><rect x="484" y="420" width="26" height="40"/>
+    <rect x="430" y="480" width="26" height="40"/><rect x="484" y="480" width="26" height="40"/>
+    <rect x="808" y="395" width="28" height="44"/><rect x="848" y="395" width="28" height="44"/><rect x="888" y="395" width="28" height="44"/>
+    <rect x="808" y="460" width="28" height="44"/><rect x="848" y="460" width="28" height="44"/><rect x="888" y="460" width="28" height="44"/>
+    <rect x="1194" y="435" width="24" height="38"/><rect x="1248" y="435" width="24" height="38"/>
+  </g>
+
+  <!-- Quay & Fjord Water with subtle brass reflections -->
+  <rect x="0" y="630" width="1600" height="270" fill="url(#water)"/>
+  <rect x="110" y="630" width="1380" height="16" fill="#1C1C22" stroke="#C9A96E" stroke-opacity="0.45"/>
+  <g stroke="#C9A96E" stroke-opacity="0.22" stroke-width="1.2">
+    <line x1="175" y1="675" x2="255" y2="675"/><line x1="425" y1="692" x2="520" y2="692"/>
+    <line x1="795" y1="680" x2="925" y2="680"/><line x1="815" y1="715" x2="900" y2="715"/>
+    <line x1="1190" y1="688" x2="1280" y2="688"/>
+  </g>
+
+  <!-- Minimal architectural scale & datum tick marks (no text) -->
+  <g stroke="#C9A96E" stroke-opacity="0.5" stroke-width="1">
+    <line x1="90" y1="840" x2="290" y2="840"/>
+    <line x1="90" y1="832" x2="90" y2="848"/>
+    <line x1="190" y1="835" x2="190" y2="845"/>
+    <line x1="290" y1="832" x2="290" y2="848"/>
+    <circle cx="1490" cy="110" r="24" fill="none" stroke-opacity="0.35"/>
+    <line x1="1490" y1="78" x2="1490" y2="142" stroke-opacity="0.45"/>
+    <line x1="1458" y1="110" x2="1522" y2="110" stroke-opacity="0.45"/>
+  </g>
+</svg>
